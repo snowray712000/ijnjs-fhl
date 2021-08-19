@@ -6,7 +6,7 @@
 
 (function (root) {
     // root 會是 FHL namespace
-    Ijnjs.assert(root.name = 'FHL')
+    Ijnjs.assert(root.name == 'FHL')
     FHL.getCountChapOfBook = getCountChapOfBook
     FHL.getCountVerseOfChap = getCountVerseOfChap
     FHL.getNextAddress = getNextAddress

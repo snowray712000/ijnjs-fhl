@@ -1,6 +1,6 @@
 (function (root) {
     // root 會是 FHL namespace
-    Ijnjs.assert(root.name = 'FHL')
+    Ijnjs.assert(root.name == 'FHL')
     BibleConstant.s = new BibleConstant()
     root.BibleConstant = BibleConstant
     return
