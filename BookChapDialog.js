@@ -7,7 +7,7 @@
 
 (function (root) {
     // root 會是 FHL
-    Ijnjs.assert(root.name = 'FHL')
+    Ijnjs.assert(root.name == 'FHL')
 
     /** @type {FHL.BookChapDialogDataG} */
     var dataG = {
